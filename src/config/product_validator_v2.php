@@ -2,7 +2,8 @@
 
 return [
     'offer_id' => ['type' => 'string', 'requiredCreate' => true],
-
+    'name' 	   => ['type' => 'string', 'requiredCreate' => true],
+	
     'attributes'         => [
         'type'           => 'array', //todo type attributes array
         'requiredCreate' => true,
